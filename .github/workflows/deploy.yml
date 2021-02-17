@@ -31,5 +31,5 @@ jobs:
           cd scand-100
           git pull
           -docker rm -f webserver
-          docker run --name webserver -v ./static:/usr/share/nginx/html:ro -d nginx
+          docker run --name webserver -v /home/azureuser/scand-100/static:/usr/share/nginx/html:ro -d nginx
           
