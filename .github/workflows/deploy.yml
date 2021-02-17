@@ -25,7 +25,7 @@ jobs:
       with:
         host: scand.westus.cloudapp.azure.com
         username: azureuser
-        key: ${{ secrest.SSH_KEY }}
+        key: ${{ secrets.SSH_KEY }}
         port: 22
         script: |
           cd scand-100
