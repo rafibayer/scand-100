@@ -1,0 +1,175 @@
+body {
+  font-family: 'Assistant', sans-serif;
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  text-transform: uppercase;
+  font-size: 120px;
+  margin-bottom: 0px;
+  text-shadow: #000000 20px 15px 20px;
+}
+
+#sources {
+  height: 80vh;
+  justify-content: center;
+  background-image: url("sources\ 2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+#source_list {
+  margin-left: 30%;
+
+}
+
+#item {
+  margin-top: 2%;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+#sources > h2 {
+  color: white;
+  padding-top: 2%;
+}
+
+header {
+  height: 100vh;
+  justify-content: center;
+  background-image: url("books.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+}
+
+h2 {
+  font-size: 35px;
+  /*text-decoration-line: underline; */
+  font-family: 'Istok Web', sans-serif;
+  font-size: 70px;
+}
+
+article {
+  margin: 15px;
+  height: 400px;
+  width: 300px;
+  background-color: #d1d7dd00;
+  opacity: 80%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #00e1ff;
+  box-shadow: black;
+
+}
+
+header, article {
+  flex-direction: column;
+}
+
+article > p {
+  align-self: flex-start;
+}
+
+header > blockquote {
+  margin-top: 0px;
+  font-size: 22px;
+}
+
+article > img {
+  height: 150px;
+  width: 150px;
+}
+
+article > hr {
+  width: 65%;
+}
+
+footer > p, article {
+  padding: 20px;
+}
+
+header, #intro > section, #test > section, article {
+  display: flex;
+}
+
+header, #test > section, article {
+  align-items: center;
+}
+
+header, #test > p, abbr {
+  color: #ffffff;
+}
+
+#test > h2 {
+  color: black
+}
+
+footer > p, h2, #test > p {
+  text-align: center;
+}
+
+#intro, #facts, #test {
+  width: 60%;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#intro, #facts {
+  padding: 30px;
+  border-top-width: 5px;
+  border-top-style: solid;
+  border-color: #00e1ff;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+}
+
+#intro {
+  margin-top: 30px;
+}
+
+#intro p, ol > li {
+  font-size: 20px;
+}
+
+#intro img {
+  height: 300px;
+  width: 300px;
+  border-radius: 10%;
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+#facts > p, article > p {
+  font-size: 24px;
+}
+
+#facts a:link {
+  color: #FFA600;
+}
+
+#facts a:visited {
+  color: #1B505E;
+}
+
+#test > section {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+article:hover .answer {
+  display: inline;
+}
+
+.answer {
+  color: #09acf7;
+  display: none;
+}
