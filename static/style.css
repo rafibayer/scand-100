@@ -78,7 +78,9 @@ article > p {
 
 header > blockquote {
   margin-top: 0px;
-  font-size: 22px;
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: #000000 20px 15px 20px;
 }
 
 article > img {
