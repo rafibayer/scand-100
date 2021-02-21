@@ -10,6 +10,19 @@ h1 {
   text-shadow: #000000 20px 15px 20px;
 }
 
+#table {
+  height: 10%;
+  margin-right: 3%;
+}
+
+#money {
+  height: 10%;
+  width: 30%;
+  margin-left: 15%;
+  margin-right: 5%;
+  margin-top: 4%;
+}
+
 #sources {
   height: 80vh;
   justify-content: center;
@@ -68,6 +81,10 @@ article {
 
 }
 
+tr {
+  margin-right: 20%
+}
+
 header, article {
   flex-direction: column;
 }
@@ -96,7 +113,7 @@ footer > p, article {
   padding: 20px;
 }
 
-header, #intro > section, #test > section, article {
+header, #intro > section, #test > section, article, #university > section {
   display: flex;
 }
 
@@ -104,26 +121,31 @@ header, #test > section, article {
   align-items: center;
 }
 
-header, #test > p, abbr {
+header, abbr {
   color: #ffffff;
 }
 
+#test > p {
+  font-size: 25px;
+}
+
 #test > h2 {
-  color: black
+  color: black;
+  font-size: 50px;
 }
 
 footer > p, h2, #test > p {
   text-align: center;
 }
 
-#intro, #facts, #test {
+#intro, #facts, #test, #university {
   width: 60%;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
 }
 
-#intro, #facts {
+#intro, #facts, #university {
   padding: 30px;
   border-top-width: 5px;
   border-top-style: solid;
@@ -132,11 +154,11 @@ footer > p, h2, #test > p {
   border-bottom-style: solid;
 }
 
-#intro {
+#intro, #university {
   margin-top: 30px;
 }
 
-#intro p, ol > li {
+#intro p, ol > li, #university p {
   font-size: 20px;
 }
 
@@ -150,8 +172,18 @@ footer > p, h2, #test > p {
   margin-left: 10px;
 }
 
+#univerity img {
+  height: auto;
+  width: 300px;
+}
+
 #facts > p, article > p {
   font-size: 24px;
+}
+
+#facts > h2 {
+  font-size: 325%;
+  margin-top: 1%;
 }
 
 #facts a:link {
