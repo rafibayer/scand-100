@@ -15,7 +15,29 @@ h1 {
   justify-content: space-evenly;
   text-align: center;
   padding: 2%;
+  font-size: 30px;
+  text-emphasis: bold;
+}
 
+.dropdown > h2 {
+  margin-bottom: 0%;
+}
+
+.singleCountry {
+  border-width: 2px;
+  border-color: black;
+}
+
+.singleCountry:hover {
+  text-decoration: underline;
+  text-decoration-color: crimson;
+}
+
+.country {
+  margin-left: 5%;
+  font-size: 20px;
+  margin-right: 5%;
+  margin-bottom: 2%;
 }
 
 .hidden {
@@ -74,10 +96,9 @@ footer {
 }
 
 h2 {
-  font-size: 35px;
+  font-size: 50px;
   /*text-decoration-line: underline; */
   font-family: 'Istok Web', sans-serif;
-  font-size: 70px;
 }
 
 article {
@@ -165,6 +186,16 @@ footer > p, h2, #test > p {
   border-bottom-width: 5px;
   border-bottom-style: solid;
 }
+
+#comparative {
+  border-color: #00e1ff;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  margin-left: 18%;
+  margin-right: 17%;
+}
+
+
 
 #intro, #university {
   margin-top: 30px;
