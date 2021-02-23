@@ -12,10 +12,14 @@
 
     function showCountryArticle(countryName) {
         let allArticles = Array.from(document.getElementsByClassName("country"));
-        allArticles.forEach(article => article.classList.add("hidden"));
-
         let articleToShowID = countryName+"Article";
-        document.getElementById(articleToShowID).classList.remove("hidden");
+
+        allArticles.forEach(article => {
+            if (article.id != articleToShowID)
+            article.classList.add("hidden")
+        });
+
+        document.getElementById(articleToShowID).classList.toggle("hidden");
     }
 
 })();
