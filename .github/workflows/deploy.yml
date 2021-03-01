@@ -31,5 +31,5 @@ jobs:
           cd scand-100
           git pull
           docker rm -f $(docker ps -aq)
-          docker run -p80:80 --name webserver -v /home/azureuser/scand-100/static:/usr/share/nginx/html:ro -d nginx
+          docker run -p80:80 --name webserver --restart unless-stopped -v /home/azureuser/scand-100/static:/usr/share/nginx/html:ro -d nginx
           
