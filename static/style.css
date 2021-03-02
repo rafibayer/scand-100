@@ -58,7 +58,7 @@ h1 {
 }
 
 #sources {
-  height: 80vh;
+  height: 100vh;
   justify-content: center;
   background-image: url("sources\ 2.jpg");
   background-size: cover;
@@ -67,8 +67,8 @@ h1 {
 }
 
 #source_list {
-  margin-left: 30%;
-
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 #item {
